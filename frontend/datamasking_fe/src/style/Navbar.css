@@ -1,0 +1,47 @@
+/* Navbar background */
+.navbar {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+}
+
+/* Toolbar layout */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Menu container */
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.nav-btn {
+    color: white !important;
+    font-weight: 500;
+    text-transform: none !important;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-btn:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+}
+
+/* Logout special style */
+.logout-btn {
+    border: 1px solid white !important;
+}
+
+.logout-btn:hover {
+    background-color: #ff4d4d !important;
+    border-color: #ff4d4d !important;
+}

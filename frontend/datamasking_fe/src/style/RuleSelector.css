@@ -1,0 +1,15 @@
+.rule-card {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px !important;
+}
+
+.rule-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.add-rule-btn {
+    margin-top: 10px !important;
+}

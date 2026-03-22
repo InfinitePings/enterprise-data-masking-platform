@@ -1,0 +1,25 @@
+.preview-card {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px !important;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 15px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.download-btn {
+    background: #1e3c72 !important;
+    color: white !important;
+}
