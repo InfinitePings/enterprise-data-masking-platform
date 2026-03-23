@@ -81,7 +81,7 @@ const Audit = () => {
                         <TableRow>
                             <TableCell><b>ID</b></TableCell>
                             <TableCell><b>Dataset ID</b></TableCell>
-                            <TableCell><b>User</b></TableCell>
+                            
                             <TableCell><b>Action</b></TableCell>
                             <TableCell><b>Timestamp</b></TableCell>
                         </TableRow>
@@ -92,7 +92,7 @@ const Audit = () => {
                             <TableRow key={log.id}>
                                 <TableCell>{log.id}</TableCell>
                                 <TableCell>{log.datasetId}</TableCell>
-                                <TableCell>{log.username}</TableCell>
+                                
                                 <TableCell>{log.action}</TableCell>
                                 <TableCell>{log.timestamp}</TableCell>
                             </TableRow>
